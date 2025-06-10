@@ -1,0 +1,18 @@
+[
+  {
+    "text": "问题1? If data is not available, return 'N/A'.",
+    "kind": "number"
+  },
+  {
+    "text": "问题2?",
+    "kind": "boolean"
+  },
+  {
+    "text": "问题3?",
+    "kind": "name"
+  },
+  {
+    "text": "问题4?",
+    "kind": "names"
+  }
+]
