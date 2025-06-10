@@ -86,7 +86,7 @@ class VectorDBIngestor:
             url = "https://api.siliconflow.cn/v1/embeddings"
             model = "BAAI/bge-m3"
 
-            api_key = "sk-vgzdgwcrvyexymfdhgsqnmohqhefwabsvuvrpwkggkkezpxy"
+            api_key = os.getenv("BGE_API_KEY")
             headers = {
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json"
